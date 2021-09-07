@@ -1,0 +1,25 @@
+# To generate gprMax input file
+# theta_s, theta_r, n, alpha
+0.43 0.045 2.68 0.145
+# depth to water table (m)
+1.5
+# domain size (m)
+2. 2.3 0.002
+# time_window (second)
+1.5e-8
+# relative permittivity (1: Topp, 2:)
+1
+# conductivity (1:*, 2:)
+1
+# waveform (1:ricker, 2:gaussian)
+1
+# source coordinates
+0.6  2.0  0.0
+# receiver coordinates
+1.4  2.0  0.0
+#scaling, frequency
+1  1.0e9
+# material vertical discretization (m)
+0.01
+# spatial discretization (m)
+0.002
